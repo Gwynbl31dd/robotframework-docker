@@ -15,6 +15,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag gwynbl31dd/robot-framework:beta
     - name: Run the Docker image
-      run: docker run -v $(pwd)/tests:/tests -v $(pwd)/results:/results gwynbl31dd/robot-framework:latest
+      run: docker run -v $(pwd)/tests:/tests -v $(pwd)/results:/results gwynbl31dd/robot-framework:beta
     - name: publish results
       run: docker run -e "WEBEX_TEAMS_ACCESS_TOKEN=${{ secrets.WEBEX_TOKEN }}" -e "WEBEX_ROOMS=[\"Robot framework pipeline\"]" -e "WEBEX_PEOPLE=[\"apaulin@cisco.com\"]" -e "RESULT_PATH=/results" -v ${PWD}:/results gwynbl31dd/webex-pipeline-assistant:latest
