@@ -1,3 +1,6 @@
+[![CI](https://github.com/Gwynbl31dd/robotframework-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Gwynbl31dd/robotframework-docker/actions/workflows/docker-image.yml)
+
+
 # Robot framework Test container (RF)
 
 This image is based on [ppodgorsek/robot-framework](https://github.com/ppodgorsek/docker-robot-framework/)
