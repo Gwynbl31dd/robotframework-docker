@@ -5,6 +5,8 @@
 
 This image is based on [ppodgorsek/robot-framework](https://github.com/ppodgorsek/docker-robot-framework/)
 
+You can get the lastest image from [Docker Hub](https://hub.docker.com/r/gwynbl31dd/robot-framework)
+
 ## Usage
 
 The container will take the script in from a folder and push the results to another
