@@ -9,7 +9,7 @@ You can get the lastest image from [Docker Hub](https://hub.docker.com/r/gwynbl3
 
 ## Usage
 
-The container will take the script in from a folder and push the results to another
+The container will read the scripts from a folder and push the results to another
 
 ## Prerequisite 
 
@@ -19,7 +19,6 @@ The container will take the script in from a folder and push the results to anot
 
 * [Robot Framework](https://github.com/robotframework/robotframework) 5.0
 * [rflint](https://pypi.org/project/robotframework-lint/) 
-* [robotframework-requests](https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html)
 
 ## Building the image
 

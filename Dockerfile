@@ -6,7 +6,6 @@ ENV ROBOT_TESTS_DIR=/tests
 ENV ROBOT_REPORTS_DIR=/results
 
 RUN pip install robotframework==5.0 && \
-    pip install robotframework-requests && \
     pip install robotframework-lint
 
 # Validate the test with a linter, then run it
