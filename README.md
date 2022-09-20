@@ -45,6 +45,18 @@ docker run -v $(pwd)/tests:/tests -v $(pwd)/results:/results gwynbl31dd/robot-fr
 * ROBOT_TESTS_DIR: test directory. Default ``/tests``
 * ROBOT_REPORTS_DIR=: report directory. Default ``/results``
 
+## Build your image based on this one
+
+You can use this image as a base image for your own project. You can add your own dependencies
+
+```Dockerfile
+FROM gwynbl31dd/robot-framework:latest
+
+RUN pip install --no-cache-dir robotframework-requests
+```
+
+Easy as that!
+
 ## License & Maintainers
 
 Anthony Paulin <paulin.anthony@gmail.com>
