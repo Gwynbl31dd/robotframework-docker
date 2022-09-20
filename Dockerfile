@@ -1,6 +1,6 @@
-FROM 3.11-rc-alpine
+FROM python:3.11-rc-alpine
 
-LABEL maintainer="apaulin <paulin.anthony@gmail.com>"
+LABEL maintainer="Anthony Paulin <paulin.anthony@gmail.com>"
 
 ENV ROBOT_TESTS_DIR=/tests
 ENV ROBOT_REPORTS_DIR=/results
